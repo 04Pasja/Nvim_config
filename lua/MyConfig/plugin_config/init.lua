@@ -1,0 +1,6 @@
+require("MyConfig.plugin_config.moonfly")
+require("MyConfig.plugin_config.lualine")
+require("MyConfig.plugin_config.web_devicons")
+require("MyConfig.plugin_config.treesitter")
+require("MyConfig.plugin_config.plenary")
+require("MyConfig.plugin_config.null_ls")
