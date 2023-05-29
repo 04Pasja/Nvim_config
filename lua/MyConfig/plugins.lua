@@ -22,7 +22,20 @@ return require('packer').startup(function(use)
 }
   use 'deoplete-plugins/deoplete-clang'
   use 'nvim-lua/plenary.nvim'
+  use {
+	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+  } 
   use 'jose-elias-alvarez/null-ls.nvim'
+use {
+'nvim-tree/nvim-tree.lua',
+requires = {
+'nvim-tree/nvim-web-devicons', -- optional
+},
+config = function()
+require("nvim-tree").setup {}
+end
+}
  -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
