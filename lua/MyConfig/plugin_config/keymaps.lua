@@ -8,3 +8,4 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 -- Nvim-tree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
+
