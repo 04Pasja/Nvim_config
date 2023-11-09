@@ -8,4 +8,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 -- Nvim-tree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
+-- ctrl - backspace doesn't work due to Power Shell design - Terminals doesn't support this hey combinatin
+--vim.keymap.set("i", "<C-BS>", "<Esc> diW i")
+
 
